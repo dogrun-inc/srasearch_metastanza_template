@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <script type="module" src="https://togostanza.github.io/metastanza/pagination-table.js" async></script>
+  </head>
+  <body>
+    <div>
+
+      <togostanza-pagination-table
+      data-url="http://192.168.11.20:4001/metastanza_data/bioproject?q=metagenome"
+      data-type="json"
+      custom-css-url=""
+      width=""
+      fixed-columns="1"
+      padding="0px"
+      page-size-option="10,20,50,100"
+      page-slider="true"
+      columns="[{&quot;id&quot;:&quot;identifier&quot;,&quot;label&quot;:&quot;organism&quot;,&quot;escape&quot;:false,&quot;line-clamp&quot;:3},
+      {&quot;id&quot;:&quot;organism&quot;,&quot;label&quot;:&quot;organism&quot;,&quot;line-clamp&quot;:3},
+      {&quot;id&quot;:&quot;title&quot;,&quot;label&quot;:&quot;title&quot;,&quot;line-clamp&quot;:3},
+      {&quot;id&quot;:&quot;description&quot;,&quot;label&quot;:&quot;description&quot;,&quot;line-clamp&quot;:3},
+      {&quot;id&quot;:&quot;submitted&quot;,&quot;label&quot;:&quot;submitted&quot;,&quot;line-clamp&quot;:3},
+      {&quot;id&quot;:&quot;last_updated&quot;,&quot;label&quot;:&quot;last_updated&quot;,&quot;line-clamp&quot;:3}
+      ]"
+    ></togostanza-pagination-table>
+    </div>
+  </body>
+</html>
+
+

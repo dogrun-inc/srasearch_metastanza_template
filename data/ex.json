@@ -1,0 +1,10 @@
+[
+    {
+      "dataset_id": "DS810_1",
+      "title": "Human iPS cell_201B7-P32",
+      "description": "Proteome analyses of human induced pluripotent stem cell line (201B7-P32) were carried out using a two-meter monolithic silica C18 capillary columns without prefractionation. Tryptic peptides from 4 μg cell lysates were directly injected onto the 100 μm i.d. monolithic silica-C18 column and an 8-h gradient was applied at 500 nL/min. Triplicate measurements were conducted and the merged results were searched against UniProt DB to identify peptides and proteins. The obtained results were filtered at 1% FDR thresholds by searching against the randomized decoy DB both at peptide and protein levels. This dataset with the PX complete submission format will be further used to generate a customized DB in this jPOST project.",
+      "species": "Homo sapiens",
+      "number_of_protein": "3650",
+      "dataset_uri": "http://rdf.jpostdb.org/entry/DS810_1"
+    }
+  ]

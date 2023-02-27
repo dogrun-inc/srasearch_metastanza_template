@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <script type="module" src="https://togostanza.github.io/metastanza/linechart.js" async></script>
+    </head>
+    <body>
+        <div>
+            <togostanza-linechart
+                data-url="http://192.168.11.20:4001/metastanza_data/srasearch/linechart"
+                data-type="json"
+                category="year"
+                value="count"
+                group-by=""
+                category-title="Year"
+                value-title="Submission"
+                legend-title=""
+                custom-css-url=""
+                width="400"
+                height="200"
+                padding="50"
+                legend="true"
+                xgrid="false"
+                ygrid="true"
+                xtick="false"
+                ytick="true"
+                xlabel-angle="0"
+                ylabel-angle="0"
+                xlabel-padding="5"
+                ylabel-padding="5"
+                xtitle-padding="10"
+                ytitle-padding="10"
+                xaxis-placement="bottom"
+                yaxis-placement="left"
+            ></togostanza-linechart>
+        </div>
+    </body>
+</html>
